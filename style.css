@@ -31,7 +31,14 @@ img {
     height: 100%;
     font-family: 'Itim','Courier New', Courier, monospace;
     box-shadow: 0px 5px 20px rgb(255, 166, 0);
-    border: 0%;
+}
+
+#boton-lecturas {
+    background-image: linear-gradient(to bottom, rgb(0, 185, 209), #00787c);
+    width: 50%;
+    height: 100%;
+    font-family: 'Itim','Courier New', Courier, monospace;
+    box-shadow: 0px 5px 20px #00787c;
 }
 
 .banner {
