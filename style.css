@@ -16,36 +16,32 @@ h1 {
 
 #presentacion {
     background-image: linear-gradient(to bottom, rgb(153, 0, 224) , #43005e);
-    color: antiquewhite;
     box-shadow: 0px 5px 20px rgb(245, 137, 255);
-    border-radius: 5%;
     width: 600px;
     height: 300px;
-    text-shadow: 0px 5px 20px black;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    padding: 2%;
-    margin-bottom: 100px;
 }
 
 img {
     filter: drop-shadow(0px 15px 20px black);
 }
 
-#explicacion {
-    float: left;
-}
-
 #boton-juegos {
     background-image: linear-gradient(to bottom, orange, #7c5100);
-    border-radius: 10%;
     width: 50%;
     height: 100%;
-    color: antiquewhite;
-    font-size: xx-large;
     font-family: 'Itim','Courier New', Courier, monospace;
+    box-shadow: 0px 5px 20px rgb(255, 166, 0);
+    border: 0%;
+}
+
+.banner {
+    color: antiquewhite;
+    font-size: x-large;
+    border-radius: 5%;
+    text-shadow: 0px 5px 20px black;
+    align-items: center;
+    padding: 2%;
+    margin-bottom: 100px;
     display: flex;
     margin: 0 auto;
-    text-shadow: 0px 5px 20px black;
 }
