@@ -18,9 +18,8 @@ h1 {
 }
 
 #advertencia {
-    background-color: yellow;
+    background-color: rgb(86, 0, 94);
     width: 100%;
-    height: 10%;
 }
 
 #presentacion {
