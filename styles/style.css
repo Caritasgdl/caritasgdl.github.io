@@ -1,25 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
+h1 { font-family: 'Fredoka One', 'Courier New', Courier, monospace;}
+
+p { font-family:'Itim', 'Courier New', Courier, monospace;}
+
+img { filter: drop-shadow(0px 15px 20px); }
+
+#tematicas button:hover { transform: scale(1.1); }
+
+#boton-juegos { background-image: linear-gradient(to bottom, orange, #7c5100); }
+
+#boton-lecturas { background-image: linear-gradient(to bottom, rgb(0, 185, 209), #00787c); }
+
+p, h1 { color: antiquewhite; }
+
 body {
     background-color: #221f1f;
-}
-
-p {
-    font-family:'Itim', 'Courier New', Courier, monospace;
-    color: antiquewhite;
     text-shadow: 0px 5px 20px black;
-}
-
-h1 {
-    font-family: 'Fredoka One', 'Courier New', Courier, monospace;
-    color: antiquewhite;
-    text-shadow: 0px 5px 20px black;
-}
-
-#advertencia {
-    background-color: rgb(86, 0, 94);
-    width: 100%;
 }
 
 #presentacion {
@@ -29,15 +27,14 @@ h1 {
     height: 45%;
     max-width: 600px;
     max-height: 300px;
+    font-size: 100%;
 }
 
-#presentacion img {
-    width: 70%;
+.imagenes {
+    width: 40%;
     height: auto;
-}
-
-img {
-    filter: drop-shadow(0px 15px 20px);
+    max-width: 300px;
+    max-height: 300px;
 }
 
 #tematicas button {
@@ -47,30 +44,19 @@ img {
     transition: transform 0.2s ease;
 }
 
-#tematicas button:hover {
-    transform: scale(1.1);
-}
-
-#boton-juegos {
-    background-image: linear-gradient(to bottom, orange, #7c5100);
-}
-
-#boton-lecturas {
-    background-image: linear-gradient(to bottom, rgb(0, 185, 209), #00787c);
-}
-
 .banner {
-    font-size: x-large;
     border-radius: 5%;
     align-items: center;
     padding: 2%;
-    margin-bottom: 100px;
+    margin-bottom: 10%;
     display: flex;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 10%;
 }
 
-.perfiles {
+#gato_catolico {
     border-radius: 20%;
-    padding: 0.5cm;
+    padding: 1%;
+    width: 20%;
+    height: auto;
 }
