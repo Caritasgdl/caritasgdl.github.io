@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-h1 { font-family: 'Fredoka One', 'Courier New', Courier, monospace;}
+h1 { font-family: 'Fredoka One', 'Courier New', Courier, monospace; }
 
-p { font-family:'Itim', 'Courier New', Courier, monospace;}
-
-img { filter: drop-shadow(0px 15px 20px); }
+p { font-family: 'Itim', 'Courier New', Courier, monospace; }
 
 #tematicas button:hover { transform: scale(1.1); }
 
@@ -14,6 +12,14 @@ img { filter: drop-shadow(0px 15px 20px); }
 #boton-lecturas { background-image: linear-gradient(to bottom, rgb(0, 185, 209), #00787c); }
 
 p, h1 { color: antiquewhite; }
+
+img {
+    filter: drop-shadow(0px 15px 20px);
+    width: 40%;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
 
 body {
     background-color: #221f1f;
@@ -28,13 +34,6 @@ body {
     max-width: 600px;
     max-height: 300px;
     font-size: 100%;
-}
-
-.imagenes {
-    width: 40%;
-    height: auto;
-    max-width: 300px;
-    max-height: 300px;
 }
 
 #tematicas button {
