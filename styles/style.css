@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@font-face {
+   font-family: "Montserrat";
+   src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
 
-h1 { font-family: 'Fredoka One', 'Courier New', Courier, monospace; }
+h1 { font-family: 'Montserrat', 'Fredoka One', 'Courier New', Courier, monospace; }
 
-p { font-family: 'Itim', 'Courier New', Courier, monospace; }
+p { font-family: 'Montserrat', 'Itim', 'Courier New', Courier, monospace; }
 
 #tematicas button:hover { transform: scale(1.1); }
 
