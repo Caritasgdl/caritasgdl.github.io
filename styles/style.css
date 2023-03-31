@@ -8,17 +8,15 @@
     src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf");
 }
 
-h1 { font-family: 'Montserrat', 'Fredoka One', 'Courier New', Courier, monospace; }
+p, h1 { color: antiquewhite; }
+
+h1 { font-family: 'Montserrat-Bold', 'Fredoka One', 'Courier New', Courier, monospace; }
 
 p { font-family: 'Montserrat', 'Itim', 'Courier New', Courier, monospace; }
-
-#tematicas button:hover { transform: scale(1.1); }
 
 #boton-juegos { background-image: linear-gradient(to bottom, orange, #7c5100); }
 
 #boton-lecturas { background-image: linear-gradient(to bottom, rgb(0, 185, 209), #00787c); }
-
-p, h1 { color: antiquewhite; }
 
 img {
     filter: drop-shadow(0px 15px 20px);
@@ -30,34 +28,25 @@ img {
 
 body {
     background-color: #dc83aa;
-    text-shadow: 0px 5px 20px black;
 }
 
 #presentacion {
     background-color: #844561;
-    height: 45%;
     max-height: 300px;
-    align-content: center;
-}
-
-#presentacion h1 {
-    font-family: 'Montserrat-Bold','Courier New', Courier, monospace;
-    font-size: 300%
+    font-size: 100%;
+    text-align: center;
 }
 
 #tematicas button {
     width: 50%;
     height: 100%;
     border: none;
-    transition: transform 0.2s ease;
 }
 
 .banner {
     align-items: center;
     padding: 2%;
-    margin-bottom: 10%;
     display: flex;
-    margin: 0 auto;
     margin-top: 10%;
 }
 
