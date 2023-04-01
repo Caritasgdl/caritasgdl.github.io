@@ -14,27 +14,30 @@ h1 { font-family: 'Montserrat-Bold', 'Fredoka One', 'Courier New', Courier, mono
 
 p { font-family: 'Montserrat', 'Itim', 'Courier New', Courier, monospace; }
 
-#boton-juegos { background-image: linear-gradient(to bottom, orange, #7c5100); }
+body { background-color: #dc83aa; }
 
-#boton-lecturas { background-image: linear-gradient(to bottom, rgb(0, 185, 209), #00787c); }
+#boton-juegos { background-color: brown; }
+
+#boton-lecturas { background-color: aquamarine; }
 
 img {
-    filter: drop-shadow(0px 15px 20px);
     width: 40%;
     height: auto;
-    max-width: 300px;
-    max-height: 300px;
+
 }
 
-body {
-    background-color: #dc83aa;
+#logo_caritas {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 #presentacion {
     background-color: #844561;
     max-height: 300px;
     font-size: 100%;
-    text-align: center;
 }
 
 #tematicas button {
@@ -43,16 +46,16 @@ body {
     border: none;
 }
 
-.banner {
-    align-items: center;
-    padding: 2%;
-    display: flex;
-    margin-top: 10%;
-}
-
 #gato_catolico {
     border-radius: 20%;
     padding: 1%;
     width: 20%;
     height: auto;
+}
+
+.banner {
+    align-items: center;
+    padding: 2%;
+    display: flex;
+    margin-top: 10%;
 }
