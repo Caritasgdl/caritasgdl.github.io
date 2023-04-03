@@ -17,21 +17,23 @@
 #gato_catolico {
     border-radius: 20%;
     padding: 1%;
-    width: 20%;
-    height: auto;
+    height: 20%;
+    width: auto;
+    max-width: 300px;
+    max-height: auto;
 }
 
 #banner {
     align-items: center;
     padding: 2%;
-    display: flex;
     margin-top: 2%;
 }
 
-#historia_Caritas img {
+#historia_caritas img {
     max-width: 150px;
     max-height: auto;
 }
+
 
 /*
 esquema de colores:

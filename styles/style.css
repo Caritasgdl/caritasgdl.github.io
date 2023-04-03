@@ -14,24 +14,51 @@ h1, h2, h3, h4, h5, h6 {
     text-align:center;
 }
 
-h1 {
-    background-color: #844561;
-}
+h1 { background-color: #844561; }
 
-h2 {
-    background-color: #F2BED1;
-}
+h2 { background-color: #F2BED1; }
 
-h3 {
-    background-color: #BBCADB;
-}
+h3 { background-color: #BBCADB; }
 
-p, figcaption { font-family: 'Montserrat', 'Courier New', Courier, monospace; }
+p, figcaption, button, select { font-family: 'Montserrat', 'Courier New', Courier, monospace; }
 
 body {
     background-color: #DA95AA;
     color:antiquewhite;
 }
+
+select, button{
+    background-color: #844561;
+    border-color: transparent;
+    color: antiquewhite;
+    padding: 1%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.indice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.siguiente {
+    margin-right: auto;
+}
+
+.menu {
+    display: inline-block;
+    margin: auto;
+}
+
+.atras {
+    margin-left: auto;
+}
+
+button:hover, select:hover {
+    background-color: #135188;
+}
+
 
 /*
 esquema de colores:
