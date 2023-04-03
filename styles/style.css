@@ -8,54 +8,43 @@
     src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf");
 }
 
-p, h1 { color: antiquewhite; }
-
-h1 { font-family: 'Montserrat-Bold', 'Fredoka One', 'Courier New', Courier, monospace; }
-
-p { font-family: 'Montserrat', 'Itim', 'Courier New', Courier, monospace; }
-
-body { background-color: #dc83aa; }
-
-#boton-juegos { background-color: brown; }
-
-#boton-lecturas { background-color: aquamarine; }
-
-img {
-    width: 40%;
-    height: auto;
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Bold', 'Courier New', Courier, monospace;
+    padding: 30px;
+    text-align:center;
 }
 
-#logo_caritas {
-    margin: auto;
-    width: 100%;
-    padding: 10px;
-    max-width: 500px;
-    max-height: 500px;
-}
-
-#presentacion {
+h1 {
     background-color: #844561;
-    max-height: 300px;
-    font-size: 100%;
 }
 
-#tematicas button {
-    width: 50%;
-    height: 100%;
-    border: none;
+h2 {
+    background-color: #F2BED1;
 }
 
-#gato_catolico {
-    border-radius: 20%;
-    padding: 1%;
-    width: 20%;
-    height: auto;
+h3 {
+    background-color: #BBCADB;
 }
 
-.banner {
-    align-items: center;
-    padding: 2%;
-    display: flex;
-    margin-top: 10%;
+p, figcaption { font-family: 'Montserrat', 'Courier New', Courier, monospace; }
+
+body {
+    background-color: #DA95AA;
+    color:antiquewhite;
 }
+
+/*
+esquema de colores:
+(Colecta anual)
+#DA95AA - rosa
+#885567 - morado - h1
+#FEE5B6 - piel
+
+Paleta de colores estandar:
+#135188 - azul fuerte
+#BBCADB - azul bajito
+#FCFBEC - blanco
+#F8EE35 - amarillo
+#D62766 - violeta
+#F2BED1 - rosita bajito
+*/

@@ -4,40 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style_index.css">
     <audio id="audio" src="sounds/miau.mp3"></audio>
-
     <title>Cáritas Play</title>
     <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
     <script src="scripts/script.js" defer></script>
 </head>
 <body>
-
-    <div id="logo_caritas">
-        <img src="./imgs/logo_caritas.png">
-    </div>
+    <img src="./imgs/logo_caritas.png" alt="logo de caritas" id="logo_caritas">
     
-    <div id="presentacion" class="banner">
-        <h1>&lt&ltLa PAZ esté con ustedes&gt&gt</h1>
-        <p>- Jn 20,19</p>
-    </div>
+    <h1>
+        La <u>paz</u> esté<br/> con <u>ustedes</u> - Jn 20,19
+    </h1>
 
-    <div class="banner">
+
+    <div id="banner">
         <img id="gato_catolico" src="imgs/gato_catolico.jpeg" alt="biblia" onclick="maullido()">
-        <p>¡Bienvenido!, soy Whiskers, te acompañaré en esta gran aventura, porque aquí encontrarás juegos y lecturas para vivir una vida con y para Dios. Miau vamonos</p>
+        <p>
+            ¡Bienvenido, soy Whiskers!, soy un gato católico, me gustan las croquetas y voy
+            a misa todos los domingos, ¿Tú tambien?, ¿No?, espero sí vayas o me voy a entristecer mucho.
+            Bueno, hice esta página para ayudarlos, porque ya me dijeron muchos profesores que se están
+            portando muy mal y no están poniendo atención a las clases. Así que acompañame en esta
+            aventura llena de cositas interesantes, miau. 🐱
+        </p>
     </div>
 
-    <div id="tematicas" class="banner">
-        <button id="boton-juegos" onclick="window.open('tematicas/juegos.html', '_blank')">
-            <img src="imgs/joystick.png" alt="juegos">
-            <h1>¡Jugar!</h1>
-        </button>
+    <div id="historia_Caritas">
+        <h2>¿Qué es Cáritas de Guadalajara A.C.?</h2>
+        <figure>
+            <img src="./imgs/jose_salazar_lopez.jpeg" alt="Cardenal jose salazar lopez">
+            <figcaption>
+                <strong><u>Se fundó el día 2 de Octubre de 1975</u><strong>, <strong><u>por</u></strong> disposición del Sr. Cardenal <strong><u>José Salazar López</u></strong>
+            </figcaption>
+            <h3>¿Cuál es la identidad de nuestra institución?</h3>
+            <p>
+                Somos un organismo de la Pastoral Social de la Iglesia Católica
+                que anuncia con obras de Caridad el Evangelio
+            </p>
+        </figure>
 
-        <button id="boton-lecturas" onclick="window.open('tematicas/lecturas.html', '_blank')">
-            <img src="imgs/biblia.png" alt="Lecturas cátolicas">
-            
-            <h1>¡Leer!</h1>
-        </button>
-    </div>
+        <div>
+            <select id="indice">
+                <option value="#seccion1">Inicio</option>
+                <option value="#seccion2">¿Qué es Cáritas GDL?</option>
+                <option value="#seccion3">San Juan XXIII</option>
+            </select>
+    
+            <button>Siguiente></button>
+        </div> 
 </body>
 </html>

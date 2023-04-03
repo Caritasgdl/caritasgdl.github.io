@@ -1,0 +1,50 @@
+@import url('./style.css');
+
+#logo_caritas {
+    margin: 0 auto;
+    max-width: 200px;
+    max-height: 200px;
+    display: flex;
+}
+
+#presentacion {
+    max-height: 300px;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#gato_catolico {
+    border-radius: 20%;
+    padding: 1%;
+    width: 20%;
+    height: auto;
+}
+
+#banner {
+    align-items: center;
+    padding: 2%;
+    display: flex;
+    margin-top: 2%;
+}
+
+#historia_Caritas img {
+    max-width: 150px;
+    max-height: auto;
+}
+
+/*
+esquema de colores:
+(Colecta anual)
+#DA95AA - rosa
+#885567 - morado - h1
+#FEE5B6 - piel
+
+Paleta de colores estandar:
+#135188 - azul fuerte
+#BBCADB - azul bajito
+#FCFBEC - blanco
+#F8EE35 - amarillo
+#D62766 - violeta
+#F2BED1 - rosita bajito
+*/
