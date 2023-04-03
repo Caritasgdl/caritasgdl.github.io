@@ -29,17 +29,19 @@
         </p>
     </div>
 
-        <div class="indice">
-            <button disabled="disabled" class="atras"><strong>&lt</strong> Atrás</button>
-
-            <select class="menu" title="indice_paginas" id="seleccion">
-                <option value="">Seleccionar una página</option>
-                <option value="./tematicas/pagina1.html">¿Qué es Cáritas?</option>
-                <option value="./tematicas/pagina2.html">Opción 2</option>
-                <option value="./tematicas/pagina3.html">Opción 3</option>
-            </select>
+    <div class="indice">
+        <button disabled="disabled" onclick="location.href='./index.html'" class="atras"><strong>&lt</strong> Atrás</button>
     
-            <button class="siguiente" onclick="location.href='tematicas/pagina1.html'">Siguiente <strong>></strong></button>
-        </div> 
+        <select class="menu" title="indice_paginas" id="seleccion">
+            <option value="">Seleccionar una página</option>
+            <option value="../index.html">Inicio</option>
+            <option value="">¿Qué es Cáritas?</option>
+            <option value="./tematicas/pagina2.html">Opción 2</option>
+            <option value="./tematicas/pagina3.html">Opción 3</option>
+        </select>
+    
+        <button class="siguiente" onclick="location.href='tematicas/pagina1.html'">Siguiente <strong>></strong></button>
+    </div> 
+
 </body>
 </html>
