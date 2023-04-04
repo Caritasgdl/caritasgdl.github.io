@@ -1,0 +1,6 @@
+@import url("style.css");
+
+img {
+    max-width: 150px;
+    max-height: auto;
+}
