@@ -1,6 +1,9 @@
 @import url("style.css");
 
 img {
-    max-width: 150px;
-    max-height: auto;
+    max-height: 300px;
+    max-width: max-content;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
