@@ -6,4 +6,10 @@ img {
     justify-content: center;
     display: flex;
     align-items: center;
+    border-radius: 10%;
+}
+
+#lectura {
+    padding: 10%;
+    padding-top: 1%;
 }
