@@ -32,6 +32,8 @@ p, figcaption, button, select { font-family: 'Montserrat', 'Courier New', Courie
 body {
     background-color: #DA95AA;
     color:white;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 select, button{
