@@ -1,8 +1,8 @@
 @import url("style.css");
 
 img {
-    max-height: 300px;
-    max-width: max-content;
+    max-width: 300px;
+    max-height: auto;
     justify-content: center;
     display: flex;
     align-items: center;
