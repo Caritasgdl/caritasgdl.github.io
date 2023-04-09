@@ -14,6 +14,16 @@ h1, h2, h3, h4, h5, h6 {
     text-align:center;
 }
 
+u {
+    text-decoration-style:wavy;
+    text-decoration-color:#844561;
+}
+
+.centrado {
+    display: grid;
+    text-align: center;
+}
+
 img {
     display: grid;
     margin: 0 auto;
@@ -32,7 +42,7 @@ h4 {
     padding: 10px;
 }
 
-p, figcaption, button, select { font-family: 'Montserrat', 'Courier New', Courier, monospace; }
+p, figcaption, button, select, li { font-family: 'Montserrat', 'Courier New', Courier, monospace; }
 
 body {
     background-color: #DA95AA;
