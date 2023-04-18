@@ -15,8 +15,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 u {
-    text-decoration-style:wavy;
-    text-decoration-color:#844561;
+    text-decoration-thickness: 20%;
+    text-decoration-color:#D62766;
 }
 
 .centrado {
