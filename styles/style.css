@@ -15,13 +15,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 u {
-    text-decoration-thickness: 20%;
-    text-decoration-color:#D62766;
+    text-decoration: none;
+    background-color:#D62766;
 }
 
 .centrado {
     display: grid;
     text-align: center;
+}
+
+li {
+    padding: 10px;
 }
 
 img {

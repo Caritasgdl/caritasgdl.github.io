@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../scripts/script_sopa.js" defer></script> 
+    <script src="../scripts/script.js" defer></script>
+
     <link rel="stylesheet" href="../styles/style.css">
     <title>Ver con los ojos del Padre</title>
 </head>
@@ -12,5 +13,16 @@
     <h1>Sopa de palabras valor-don</h1>
 
     <iframe src="https://www.educima.com/wordsearches/valores_y_dones-9630b35ac2dd35bd7e05f1775fe4e90c/embed" title="wordsearch - Valores y dones" height="500px" width="100%"></iframe>
+
+    <div class="indice">
+        <button onclick="location.href='lectura1.html'" class="atras"><strong>&lt</strong> Atrás</button>
+        <select class="menu" title="indice_paginas" id="seleccion">
+            <option value="">Seleccionar una página</option>
+            <option value="./lectura1.html">¿Qué es Cáritas?</option>
+            <option value="./juego1.html">Sopa de letras</option>
+            <option value="./juego2.html">El Rey o Reina dice...</option>
+        </select>
+        <button class="siguiente" onclick="location.href='./juego2.html'">Siguiente <strong>></strong></button>
+    </div>
 </body>
 </html>
