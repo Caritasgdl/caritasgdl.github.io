@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 u {
     text-decoration: none;
     background-color:#D62766;
+    padding: 3px;
 }
 
 .centrado {
