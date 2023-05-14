@@ -66,6 +66,19 @@ select, button{
     margin-bottom: 5%;
 }
 
+footer {
+    background-color: #135188;
+    padding: 5%;
+}
+
+footer a {
+    color: white;
+}
+
+footer h1, h2, h3, h4 {
+    background-color:transparent;
+}
+
 #indice {
     display: grid;
     place-items: center;
