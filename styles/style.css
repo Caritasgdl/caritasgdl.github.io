@@ -20,11 +20,6 @@ u {
     padding: 3px;
 }
 
-.centrado {
-    display: grid;
-    text-align: center;
-}
-
 li {
     padding: 10px;
 }
@@ -47,14 +42,16 @@ h4 {
     padding: 10px;
 }
 
-p, figcaption, button, select, li { font-family: 'Montserrat', 'Courier New', Courier, monospace; }
+p, figcaption, button, select, li, a, address {
+    font-family: 'Montserrat', 'Courier New', Courier, monospace;
+}
 
 body {
     background-color: #DA95AA;
     color:white;
+    margin: 0%;
     padding-left: 5%;
     padding-right: 5%;
-    margin: 0%;
 }
 
 select, button{
@@ -67,16 +64,16 @@ select, button{
 }
 
 footer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
     background-color: #135188;
-    padding: 5%;
+    display: flexbox;
 }
 
 footer a {
     color: white;
-}
-
-footer h1, h2, h3, h4 {
-    background-color:transparent;
 }
 
 #indice {
@@ -99,6 +96,16 @@ footer h1, h2, h3, h4 {
 
 button:hover, select:hover {
     background-color: #135188;
+}
+
+.pregunta {
+    color: #881351;
+}
+
+.oracion {
+    display: grid;
+    text-align: center;
+    color: #885567;
 }
 
 /*
