@@ -108,6 +108,18 @@ button:hover, select:hover {
     color: #885567;
 }
 
+.guia {
+    text-decoration: none;
+    background-color:#B8CAD8;
+    padding: 3px;
+}
+
+.todos {
+    text-decoration: none;
+    background-color:#881351;
+    padding: 3px;
+}
+
 /*
 esquema de colores:
 (Colecta anual)
