@@ -69,7 +69,7 @@ footer {
     justify-content: center;
     padding: 10px;
     background-color: #135188;
-    display: flexbox;
+    display: flex;
 }
 
 footer a {
@@ -118,6 +118,28 @@ button:hover, select:hover {
     text-decoration: none;
     background-color:#881351;
     padding: 3px;
+}
+
+.footer-image {
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+@media (max-width: 600px) {
+  footer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #135188;
+    display:block;
+    }
+
+    .footer-image {
+    margin: 0 auto;
+}
 }
 
 /*
